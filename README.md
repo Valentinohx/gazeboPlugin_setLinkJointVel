@@ -10,6 +10,7 @@ To use:
        ```
         
 or the link names 
+
         ```ruby 
         this->model->GetLink("KUKA_LWR4P::fkuka_lwr4p_A6")->SetLinearVel({_vel[0], _vel[1], _vel[2]});
         this->model->GetLink("KUKA_LWR4P::fkuka_lwr4p_A6")->SetAngularVel({_vel[3], _vel[4], _vel[5]}); 
