@@ -4,7 +4,7 @@ a gazebo plugin that can be used to set robot joint and robot link, this useful 
 To use:
 
 1. modifie the joint name 
-       ''' this->model->GetJoint("KUKA_LWR4P::fkuka_lwr4p_a1_joint")->SetParam("fmax", 0, 1000.0);
+       ''' this->model->GetJoint("KUKA_LWR4P::fkuka_lwr4p_a1_joint")->SetParam("fmax", 0, 1000.0); '''
         this->model->GetJoint("KUKA_LWR4P::fkuka_lwr4p_a2_joint")->SetParam("fmax", 0, 1000.0); '''
         
 or the link names 
